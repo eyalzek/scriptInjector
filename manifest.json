@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name"        : "script injector test",
+	"description" : "injecting scripts to ***",
+	"version"     : "0.1",
+
+	"permissions": [
+		"activeTab",
+		"storage",
+		"tabs"
+	],
+
+	"background": {
+		"scripts"    : ["app/js/background.js"],
+		"persistent" : true
+	},
+
+	"browser_action": {
+		"default_icon"  : "app/images/icon.png",
+		"default_title" : "Script Injector",
+		"default_popup" : "app/popup.html"
+	}
+}

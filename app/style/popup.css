@@ -1,0 +1,15 @@
+.container
+{
+	display : block;
+	width: auto;
+	overflow: auto;
+	font: Arial;
+}
+
+.mycode
+{
+	width: 300px;
+	height: 300px;
+	overflow: auto;
+	vertical-align: top;
+}

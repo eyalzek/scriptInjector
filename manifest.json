@@ -12,7 +12,7 @@
 	],
 
 	"background": {
-		"scripts"    : ["app/js/background.js"],
+		"page"    : "app/background.html",
 		"persistent" : true
 	},
 

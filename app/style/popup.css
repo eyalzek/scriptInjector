@@ -13,3 +13,19 @@
 	overflow: auto;
 	vertical-align: top;
 }
+
+.inner
+{
+	display: none;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background-color: red;
+}
+
+p
+{
+	overflow: auto;
+	width: 200px;
+	height: 80px;
+}

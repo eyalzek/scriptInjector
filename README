@@ -1,1 +1,6 @@
 Script injector v0=0
+---------------------
+
+Copy/paste your script to the text field in the browser action and it will run on the active tab.
+
+Still trying to add history support.

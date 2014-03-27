@@ -4,6 +4,8 @@
 	width: auto;
 	overflow: auto;
 	font: Arial;
+	position: relative;
+	z-index: 0;
 }
 
 .mycode
@@ -17,10 +19,12 @@
 .inner
 {
 	display: none;
-	width: 200px;
-	height: 50px;
+	width: 80%;
+	height: 60%;
 	position: absolute;
-	background-color: red;
+	border: 1px solid black;
+	background-color: white;
+	z-index: 99;
 }
 
 p
@@ -28,4 +32,5 @@ p
 	overflow: auto;
 	width: 200px;
 	height: 80px;
+	z-index: 99;
 }
